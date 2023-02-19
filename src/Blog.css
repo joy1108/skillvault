@@ -12,3 +12,18 @@
   .blogContent a{
     color: blue;
   }
+
+  .navbar {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px #1f465c;
+    opacity: 0.95;
+
+
+  }
+  
+  .navbar:hover {
+    background-color: #9bb8c263;
+    backdrop-filter: blur(10px);
+  }
+  
