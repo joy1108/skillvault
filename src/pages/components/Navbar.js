@@ -6,7 +6,7 @@ export default function Navbar(props) {
     const selectd=props.selected;
     return (
         <>
-        <body class="sticky top-0 antialiased text-slate-500 dark:text-slate-400 dark:bg-slate-900 mt-0">
+        <body style={{zIndex: '2' }} class="sticky top-0 antialiased text-slate-500 dark:text-slate-400 dark:bg-slate-900 mt-0">
             <nav className="bg-gray-300 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-90/[0.06] bg-white/70 supports-backdrop-blur:bg-white/95 dark:bg-transparent">
             <div className="container flex flex-wrap justify-between items-center mx-auto max-w-8xl">
                 <Link to="/" className="flex items-center">
