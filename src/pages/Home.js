@@ -5,9 +5,14 @@ import Footer from './components/Footer';
 import ImageSlider from './ImageSlider';
 
 const images = [
+    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
     'https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png',
     'https://cdn.nba.com/headshots/nba/latest/1040x760/1630631.png',
-    'https://cdn.nba.com/headshots/nba/latest/1040x760/203648.png'
+    'https://cdn.nba.com/headshots/nba/latest/1040x760/203648.png',
+    'https://cdn.nba.com/headshots/nba/latest/1040x760/201988.png',
+    'https://cdn.nba.com/headshots/nba/latest/1040x760/1629139.png',
+    'https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png',
+    'https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png'
 ];
 
 const Home = () => {
@@ -28,10 +33,10 @@ const Home = () => {
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                               &nbsp;See Blogs
                           </Link> 
-                        <div style={{zIndex: '0' }}>
+                      </div>
+                      <div style={{zIndex: '0' }} className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                         <ImageSlider images={images} interval={5000}/>
                         </div>
-                      </div>
                       <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
             <span class="font-semibold text-gray-400 uppercase">Available on</span>
             <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
